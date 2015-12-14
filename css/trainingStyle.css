@@ -1,0 +1,38 @@
+@font-face {
+  src : url("fonts/DroidKufi-Regular.ttf") format("truetype");
+}
+
+body {
+  font-family: 'Droid Arabic Kufi';
+  line-height: 25px;
+}
+
+h1,h2,h3,h4,h6{
+  line-height: 30px;
+  color: #fff;
+}
+/*#F49B23*/
+
+.fa{
+    color: #fff;
+}
+
+.num{
+  font-size: 70px;
+  font-family: "Times New Roman", Georgia, Serif;
+  line-height: 60px;
+}
+
+span{
+  font-family: "Times New Roman", Georgia, Serif;
+}
+
+/*Back To Top Style Start*/
+#toTop{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+  display: none;
+}
+/*Back To Top Style End*/
