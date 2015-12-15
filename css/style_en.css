@@ -1,11 +1,11 @@
-﻿/*==============================
+/*==============================
 GENERAL STYLES
 ==============================*/
 @import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
 
 @font-face {
   font-family: 'Droid Arabic Kufi';
-  src : url("fonts/DroidKufi-Regular.ttf") format("truetype");
+  src : url("../fonts/DroidKufi-Regular.ttf") format("truetype");
 }
 
 body {
@@ -68,12 +68,12 @@ NAVBAR STYLES
 
 .navbar-default .navbar-toggle {
   /*border-color: #FFF;*/
-  border-color: #FFA319;
+  border-color: #293B93;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
   /*background-color: #FFF;*/
-  background-color: #FFA319;
+  background-color: #293B93;
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
@@ -82,12 +82,13 @@ NAVBAR STYLES
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: #FFA319;
+  color: #293B93;
   font-weight: 1000;
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   /*color: #FFF;*/
+  color: #13A89E;
   text-decoration: none;
 }
 
@@ -147,7 +148,7 @@ HEADER SECTION STYLES
   font-size: 30px;
   font-weight: 500;
   margin-top: 250px;
-  color: #FFA319;
+  /*color: #293B93;*/
 }
 
 #header h4 {

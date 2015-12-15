@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />`
     <title>شركة ناقة للحلول التقنية</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -10,7 +11,7 @@
     <link href="css/nprogress.css" rel="stylesheet">
     <link href="css/ionicons.css" rel="stylesheet">
     <link href="js/source/jquery.fancybox.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style_en.css" rel="stylesheet">
     <link href="css/fancy-buttons.css" rel="stylesheet">
     <link href="css/style-contact.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
@@ -18,12 +19,12 @@
   <body data-spy="scroll" data-target=".navbar-fixed-top">
       <div class="navbar navbar-default navbar-fixed-top scroll-me">
         <div class="container">
-          <div class="navbar-header">
+          <div class="navbar-header navbar-right">
             <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="#" class="navbar-brand"><img src="img/nagaLogo.png" alt=""/></a>
           </div>
           <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="en.php">English</a></li>
+            <ul class="nav navbar-nav navbar-left">
+              <li><a href="en">English</a></li>
               <li><a href="#contact">اتصل بنا</a></li>
               <li><a href="#team">فريق العمل</a></li>
               <li><a href="#aboutUs">مـن نحن</a></li>
@@ -69,10 +70,10 @@
           <div class="row text-center">
           <div data-scroll-reveal="enter from the bottom after 0.4s" class="col-md-12 pad-bottom">
             <div class="caegories">
-            <a href="#" data-filter="*" class="active btn btn-info btn-sm">All</a>
-            <a href="#" data-filter=".bootstrap" class="btn btn-info btn-sm">Bootstrap</a>
-            <a href="#" data-filter=".nodejs" class="btn btn-info btn-sm">Node.js</a>
-            <a href="#" data-filter=".wordpress" class="btn btn-info btn-sm">Wordpress</a>
+            <a href="#" data-filter=".bootstrap" class="btn btn-info btn-sm">التصاميم</a>
+            <a href="#" data-filter=".nodejs" class="btn btn-info btn-sm">التطبيقات</a>
+            <a href="#" data-filter=".wordpress" class="btn btn-info btn-sm">المواقع</a>
+            <a href="#" data-filter="*" class="active btn btn-info btn-sm">الكل</a>
             </div>
           </div>
         </div>

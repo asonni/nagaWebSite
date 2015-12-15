@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />`
+    <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico" />`
     <title>Naga for IT solutions</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/nprogress.css" rel="stylesheet">
-    <link href="css/ionicons.css" rel="stylesheet">
-    <link href="js/source/jquery.fancybox.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/fancy-buttons.css" rel="stylesheet">
-    <link href="css/style-contact.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/nprogress.css" rel="stylesheet">
+    <link href="../css/ionicons.css" rel="stylesheet">
+    <link href="../js/source/jquery.fancybox.css" rel="stylesheet">
+    <link href="../css/style_en.css" rel="stylesheet">
+    <link href="../css/fancy-buttons.css" rel="stylesheet">
+    <link href="../css/style-contact.css" rel="stylesheet">
+    <link href="../css/animate.min.css" rel="stylesheet">
   </head>
   <body data-spy="scroll" data-target=".navbar-fixed-top">
     <?php      
-      require 'PHPMailerAutoload.php';
+      require '../PHPMailerAutoload.php';
       $mail = new PHPMailer;
       if(@$_POST["submit"]) {
         $name=$_POST["name"];
@@ -82,7 +82,7 @@
     <div class="navbar navbar-default navbar-fixed-top scroll-me">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="#" class="navbar-brand"><img src="img/nagaLogo.png" alt=""></a>
+          <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="#" class="navbar-brand"><img src="../img/nagaLogo.png" alt=""></a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
@@ -92,7 +92,7 @@
             
             <li><a href="#team">TEAM</a></li>
             <li><a href="#contact">CONTACT</a></li>
-            <li><a href="index.php">العربية</a></li>
+            <li><a href="/">العربية</a></li>
           </ul>
         </div>
       </div>
@@ -102,7 +102,7 @@
         <div class="container">
           <div class="row scroll-me">
             <div class="col-md-8 col-md-offset-2 col-sm-6 col-sm-offset-3 text-center">
-              <h1 data-scroll-reveal="enter from the bottom after 0.2s">NAGA FOR IT SOLUTIONS 
+              <h1 data-scroll-reveal="enter from the bottom after 0.2s">Naga for IT solutions 
               </h1>
             </div>
           </div>
@@ -128,22 +128,22 @@
         </div>
         <div id="portfolio-div" class="row text-center">
           <div class="col-md-4 col-sm-4 bootstrap nodejs">
-            <div class="work-wrapper"><a title="A bootstrap view of one of our Applicatons." href="img/portfolio/1.jpg" class="fancybox-media"><img src="img/portfolio/1.jpg" alt="" class="img-responsive"></a></div>
+            <div class="work-wrapper"><a title="A bootstrap view of one of our Applicatons." href="../img/portfolio/1.jpg" class="fancybox-media"><img src="../img/portfolio/1.jpg" alt="" class="img-responsive"></a></div>
           </div>
           <div class="col-md-4 col-sm-4 nodejs bootstrap">
-            <div class="work-wrapper"><a title="A modal view to a nodejs application that we are building." href="img/portfolio/2.jpg" class="fancybox-media"><img src="img/portfolio/2.jpg" alt="" class="img-responsive"></a></div>
+            <div class="work-wrapper"><a title="A modal view to a nodejs application that we are building." href="../img/portfolio/2.jpg" class="fancybox-media"><img src="../img/portfolio/2.jpg" alt="" class="img-responsive"></a></div>
           </div>
           <div class="col-md-4 col-sm-4 wordpress">
-            <div class="work-wrapper"><a title="A website built using Wordpress." href="img/portfolio/3.jpg" class="fancybox-media"><img src="img/portfolio/3.jpg" alt="" class="img-responsive"></a></div>
+            <div class="work-wrapper"><a title="A website built using Wordpress." href="../img/portfolio/3.jpg" class="fancybox-media"><img src="../img/portfolio/3.jpg" alt="" class="img-responsive"></a></div>
           </div>
           <div class="col-md-4 col-sm-4 bootstrap nodejs">
-            <div class="work-wrapper"><a title="A bootstrap design for a login screen to one of our applications." href="img/portfolio/4.jpg" class="fancybox-media"><img src="img/portfolio/4.jpg" alt="" class="img-responsive"></a></div>
+            <div class="work-wrapper"><a title="A bootstrap design for a login screen to one of our applications." href="../img/portfolio/4.jpg" class="fancybox-media"><img src="../img/portfolio/4.jpg" alt="" class="img-responsive"></a></div>
           </div>
           <div class="col-md-4 col-sm-4 nodejs ">
-            <div class="work-wrapper"><a title="We are proud that we use Nodejs in our applications." href="img/portfolio/5.jpg" class="fancybox-media"><img src="img/portfolio/5.jpg" alt="" class="img-responsive"></a></div>
+            <div class="work-wrapper"><a title="We are proud that we use Nodejs in our applications." href="../img/portfolio/5.jpg" class="fancybox-media"><img src="../img/portfolio/5.jpg" alt="" class="img-responsive"></a></div>
           </div>
           <div class="col-md-4 col-sm-4 wordpress">
-            <div class="work-wrapper"><a title="We use wordpress to design your static webisites." href="img/portfolio/6.jpg" class="fancybox-media"><img src="img/portfolio/6.jpg" alt="" class="img-responsive"></a></div>
+            <div class="work-wrapper"><a title="We use wordpress to design your static webisites." href="../img/portfolio/6.jpg" class="fancybox-media"><img src="../img/portfolio/6.jpg" alt="" class="img-responsive"></a></div>
           </div>
         </div>
       </div>
@@ -161,7 +161,7 @@
        </section>
     <div id="testimonial" data-scroll-reveal="enter from the bottom after 0.2s">
       <div class="overlay">
-      	
+        
         <div class="container">
           <div class="row text-center">
             <div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4"><br>
@@ -199,7 +199,7 @@ Programming as well as the creation of interactive computer software together wi
         </div>
         <div data-scroll-reveal="enter from the bottom after 0.4s" class="row pad-bottom">
           <div class="col-md-6 col-sm-6">
-            <div class="media"><a href="https://www.linkedin.com/pub/abdullah-elamir/b6/68a/997" target="_blank" class="media-left"><img src="img/11.jpg" alt="" class="img-circle"></a>
+            <div class="media"><a href="https://www.linkedin.com/pub/abdullah-elamir/b6/68a/997" target="_blank" class="media-left"><img src="../img/11.jpg" alt="" class="img-circle"></a>
               <div class="media-body">
                 <h3 class="media-heading"> Abdullah Elamir </h3>  Abdullah is the co-founder & a back-end developer,he has experience in many languages such as Java ,python . He has been awarded a Bachelor's degree in computer science from the University of Tripoli
               </div>
@@ -207,7 +207,7 @@ Programming as well as the creation of interactive computer software together wi
           </div>
           <div class="col-md-6 col-sm-6">
             <div class="media"><a href="https://www.linkedin.com/pub/ahmed-fituri/1b/603/43a
-" class="media-left" target="_blank"><img src="img/12.jpg" alt="Ahmed Fituri" class="img-circle"></a>
+" class="media-left" target="_blank"><img src="../img/12.jpg" alt="Ahmed Fituri" class="img-circle"></a>
               <div class="media-body">
                 <h3 class="media-heading">Ahmed Fituri</h3>Ahmed is the founder, CEO, & head of development of Naga. As of December 2012, He has been awarded a master's degree in computer science from the University of San Francisco. In the recent years Ahmed has been employed by the  High National Election Commission in Libya as a tech consultant.
               </div>
@@ -216,14 +216,14 @@ Programming as well as the creation of interactive computer software together wi
         </div>
         <div data-scroll-reveal="enter from the bottom after 0.6s" class="row pad-bottom">
           <div class="col-md-6 col-sm-6">
-            <div class="media"><a href="https://www.linkedin.com/pub/faisal-abdulhafidh/b7/77/5b1" target="_blank" class="media-left"><img src="img/13.jpg" alt="" class="img-circle"></a>
+            <div class="media"><a href="https://www.linkedin.com/pub/faisal-abdulhafidh/b7/77/5b1" target="_blank" class="media-left"><img src="../img/13.jpg" alt="" class="img-circle"></a>
               <div class="media-body">
                 <h3 class="media-heading">Faisal Rahil</h3>       Faisal is the co-founder & a front-end developer. He has been awarded a Bachelor's degree in computer science from the University of Tripoli                 
               </div>
             </div>
           </div>
           <div class="col-md-6 col-sm-6">
-            <div class="media"><a href="https://www.linkedin.com/pub/doss-aburass/b7/649/961" target="_blank" class="media-left"><img src="img/14.jpg" alt="" class="img-circle"></a>
+            <div class="media"><a href="https://www.linkedin.com/pub/doss-aburass/b7/649/961" target="_blank" class="media-left"><img src="../img/14.jpg" alt="" class="img-circle"></a>
               <div class="media-body">
                 <h3 class="media-heading">AbdulQudos aboras</h3>      AbdulQudos is the co-founder & a front-end developer . He has been awarded a Bachelor's degree in computer science from the University of Tripoli                        
               </div>
@@ -232,7 +232,7 @@ Programming as well as the creation of interactive computer software together wi
         </div>
         <div data-scroll-reveal="enter from the bottom after 0.6s" class="row pad-bottom">
           <div class="col-md-6 col-sm-6">
-            <div class="media"><a href="https://www.linkedin.com/pub/farouk-shouba/b6/690/230" target="_blank" class="media-left"><img src="img/17.jpg" alt="" class="img-circle"></a>
+            <div class="media"><a href="https://www.linkedin.com/pub/farouk-shouba/b6/690/230" target="_blank" class="media-left"><img src="../img/17.jpg" alt="" class="img-circle"></a>
               <div class="media-body">
                 <h3 class="media-heading">Farouck Shouba</h3>                           
                       Farouk Shouba is the co-founder , front-end developer and systems analyst . He has been awarded a Bachelor's degree in computer science from the University of Tripoli
@@ -240,7 +240,7 @@ Programming as well as the creation of interactive computer software together wi
             </div>
           </div>
           <div class="col-md-6 col-sm-6">
-            <div class="media"><a href="https://www.linkedin.com/pub/aladdin-suni/a1/772/86a" target="_blank" class="media-left"><img src="img/18.jpg" alt="" class="img-circle"></a>
+            <div class="media"><a href="https://www.linkedin.com/pub/aladdin-suni/a1/772/86a" target="_blank" class="media-left"><img src="../img/18.jpg" alt="" class="img-circle"></a>
               <div class="media-body">
                 <h3 class="media-heading">Aladdin Sonni</h3>   Aladdin is the co-founder & a front-end developer . He has been awarded a Bachelor's degree in computer science from the University of Tripoli                          
               </div>
@@ -249,14 +249,14 @@ Programming as well as the creation of interactive computer software together wi
         </div>
         <div data-scroll-reveal="enter from the bottom after 0.6s" class="row pad-bottom">
           <div class="col-md-6 col-sm-6">
-            <div class="media"><a href="https://www.linkedin.com/pub/mohamed-ali/a7/845/472" target="_blank" class="media-left"><img src="img/44.jpg" alt="" class="img-circle"></a>
+            <div class="media"><a href="https://www.linkedin.com/pub/mohamed-ali/a7/845/472" target="_blank" class="media-left"><img src="../img/44.jpg" alt="" class="img-circle"></a>
               <div class="media-body">
                 <h3 class="media-heading">Mohammed Al Gemati</h3>   Mohammed is the co-founder & a back-end developer . He has been awarded a Bachelor's degree in computer science from the University of Tripoli                           
               </div>
             </div>
           </div>
           <div class="col-md-6 col-sm-6">
-            <div class="media"><a href="https://www.linkedin.com/pub/عبد-العظيم-عقيل/bb/590/a7/en" target="_blank" class="media-left"><img src="img/20.jpg" alt="" class="img-circle"></a>
+            <div class="media"><a href="https://www.linkedin.com/pub/عبد-العظيم-عقيل/bb/590/a7/en" target="_blank" class="media-left"><img src="../img/20.jpg" alt="" class="img-circle"></a>
               <div class="media-body">
                 <h3 class="media-heading">abdulladem frag</h3>    Abdo is the co-founder & a back-end developer . He has been awarded a Bachelor's degree in computer science from the University of Tripoli                                 
               </div>
@@ -312,25 +312,25 @@ Programming as well as the creation of interactive computer software together wi
  
     <footer>Copyright reserved 2015 Naga.ly</footer>
   </body>
-  <script src="js/jquery-1.11.2.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/bootstrap-notify.min.js"></script>
+  <script src="../js/jquery-1.11.2.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/bootstrap-notify.min.js"></script>
   <script src=""></script>
-  <script src="js/nprogress.js"></script>
+  <script src="../js/nprogress.js"></script>
   <script>
     NProgress.start();
     $(window).load(function() {
       NProgress.done(); 
     });
   </script>
-  <script src="js/jquery.easing.min.js"></script>
-  <script src="js/source/jquery.fancybox.js"></script>
-  <script src="js/jquery.isotope.js"></script>
-  <script src="js/scrollReveal.js"></script>
-  <script src="js/custom.js"></script>
-  <script src="js/jquery.vegas.min.js"></script>
-  <script src="js/jquery.appear.js"></script>
-  <script src="js/custom-contact.js"></script>
+  <script src="../js/jquery.easing.min.js"></script>
+  <script src="../js/source/jquery.fancybox.js"></script>
+  <script src="../js/jquery.isotope.js"></script>
+  <script src="../js/scrollReveal.js"></script>
+  <script src="../js/custom.js"></script>
+  <script src="../js/jquery.vegas.min.js"></script>
+  <script src="../js/jquery.appear.js"></script>
+  <script src="../js/custom-contact.js"></script>
   <!--<script src="js/jquery.validate.min.js"></script>
   <script src="js/contactValidation.js"></script>
   <script src="js/contactValidationArabic.js"></script>-->
